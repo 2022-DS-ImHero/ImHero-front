@@ -1,0 +1,77 @@
+@import './total.css';
+
+.mp-title{
+
+    width: 194px;
+    height: 22px;
+    margin: 0 auto;
+    margin-top: 75px;
+    font-family: 'IM FELL Double Pica';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.MP-main img{
+    width: 140px;
+    display: block;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.whitebg{
+    background-color: white;
+    height: 70vh;
+    margin-top: -70px;
+}
+
+.myname{
+
+    width: 100px;
+    height: 36px;
+
+    margin: 0 auto;
+    padding-top: 80px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.intro{
+
+    width: 200px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.jandi{
+    width: 165px;
+    height: 35px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+    color: #000000;
+}

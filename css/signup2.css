@@ -31,10 +31,11 @@
 
 .singup-btn{
     padding: 16px 32px;
+    display: block;
 
-    position: relative;
     width: 315px;
-    height: 30px;
+    height: 50px;
+    border: none;
 
     background: #7CA9E3;
     border-radius: 100px;
@@ -44,7 +45,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
-    line-height: 25px;
+    line-height: 15px;
     text-align: center;
 
     margin: 0 auto;

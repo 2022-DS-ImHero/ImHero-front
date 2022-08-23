@@ -31,82 +31,22 @@
     margin-top: 1em;
 }
 
-.menuDate {
-    display: flex;
-    flex-direction: column;
-    padding-right: 10px;
-    color: rgb(171, 170, 170);
-    font-size: 12px;
-}
-
-.memenuImgLetter {
-    margin-top: 0.5em;
-}
-
-.menuDateLetter {
-    margin-top: 0.5em;
-}
-
-.imgFile {
-    margin-top: 0.5em;
-}
-
-.menuImg {
-    display: flex;
-    flex-direction: column;
-    padding-right: 30px;
-    font-size: 12px;
-    color: rgb(171, 170, 170)
-}
-
-.menuImgLetter {
-    margin-top: 0.5em;
-    
-}
 
 .uploadTextarea {
     clear: both;
-    width: 99%;
+    width: 95%;
     height: 25em;
     resize: none;
     font-size: 1.2em;
     border: none;
+    padding: 10px;
 }
 
 .up-c {
     text-align: center;
 }
 
-.fa-calendar-days {
-    color: rgb(171, 170, 170)
-}
-
-.fa-image {
-    color: rgb(171, 170, 170)
-}
-
-.fa-location-dot {
-    color: rgb(171, 170, 170)
-}
-
-.fa-tag {
-    color: rgb(171, 170, 170)
-}
-
-#datepicker {
-    border: 1px solid rgb(171, 170, 170);
-    border-radius: 4px;
-    margin-top: 0.5em;
-}
 
 form input::file-selector-button {
-    display: none;
-}
-
-#imgFile {
-    width: 100px
-}
-
-input[type="file"] {
     display: none;
 }

@@ -29,6 +29,14 @@ body{
     box-sizing: border-box;
     padding-top: 20px;
 }
+.container2{
+    margin: 0 auto;
+    background-color: #7CA9E3;
+    width: 430px;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
 
 .logo-container p{
     display: inline;
@@ -63,6 +71,11 @@ body{
 }
 
 .MP{
+    font-size: 13px;
+    color: #000000;
+}
+
+.LGOUT{
     font-size: 13px;
     color: #000000;
 }
