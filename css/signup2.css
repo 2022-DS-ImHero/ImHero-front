@@ -151,3 +151,63 @@ form p{
     padding-left: 10px;
     margin-bottom: -20px;
 }
+
+
+.choice{
+
+    width: 334px;
+    height: 56px;
+
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.choiceM{
+
+    width: 166px;
+    height: 175px;
+    display: inline;
+    border-radius: 15px;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.choiceM :nth-child(1){
+    margin-right: 10px;
+}
+
+.choiceT{
+    display: grid;
+    grid-template-columns: 200px 160px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.choiceT :nth-child(1){
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 5px;
+}
+
+.choiceT :nth-child(2){
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 5px;
+}
+
+
+#choiceR1{
+    margin-left: 28%;
+}
+#choiceR2{
+    margin-left: 37%;
+}
