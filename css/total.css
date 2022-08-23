@@ -66,3 +66,13 @@ body{
     font-size: 13px;
     color: #000000;
 }
+
+.C{
+    width: 67px;
+    height: 51px;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: 'Inter';
+    margin-left: 80%;
+    color: black;
+}

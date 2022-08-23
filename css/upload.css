@@ -1,0 +1,112 @@
+@import './total.css';
+
+.fa-angle-left{
+    font-size: 25px;
+}
+
+#upload-line{
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+
+.uploadTitle_div {
+    clear: both;
+}
+
+.uploadTitle {
+    font-size: 1em;
+    font-weight: 600;
+    width: 97%;
+    height: 3em;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+}
+
+.uploadMenu {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-bottom: 4em;
+    margin-top: 1em;
+}
+
+.menuDate {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    color: rgb(171, 170, 170);
+    font-size: 12px;
+}
+
+.memenuImgLetter {
+    margin-top: 0.5em;
+}
+
+.menuDateLetter {
+    margin-top: 0.5em;
+}
+
+.imgFile {
+    margin-top: 0.5em;
+}
+
+.menuImg {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    font-size: 12px;
+    color: rgb(171, 170, 170)
+}
+
+.menuImgLetter {
+    margin-top: 0.5em;
+    
+}
+
+.uploadTextarea {
+    clear: both;
+    width: 99%;
+    height: 25em;
+    resize: none;
+    font-size: 1.2em;
+    border: none;
+}
+
+.up-c {
+    text-align: center;
+}
+
+.fa-calendar-days {
+    color: rgb(171, 170, 170)
+}
+
+.fa-image {
+    color: rgb(171, 170, 170)
+}
+
+.fa-location-dot {
+    color: rgb(171, 170, 170)
+}
+
+.fa-tag {
+    color: rgb(171, 170, 170)
+}
+
+#datepicker {
+    border: 1px solid rgb(171, 170, 170);
+    border-radius: 4px;
+    margin-top: 0.5em;
+}
+
+form input::file-selector-button {
+    display: none;
+}
+
+#imgFile {
+    width: 100px
+}
+
+input[type="file"] {
+    display: none;
+}

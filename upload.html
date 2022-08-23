@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/upload.css">
+    <script src="https://kit.fontawesome.com/fc13d61e87.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=IM+Fell+Double+Pica" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=IM+Fell+English" />
+    <link rel="stylesheet" href="css/nav.css">
+    <title>upload</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <i class="fa-solid fa-x" onclick="hidenav();"></i>
+
+            <div class="profile"></div>
+            <div class="name">My Name</div>
+            <div class="mypage"><a href="">My Page</a>
+            <img class="duck" src="/img/duck.png">
+            </div>
+
+            <div class="nav-2">
+                <ul>
+                    <li><i class="fa-solid fa-droplet"></i><a href="">Idea Note</a></li>
+                    <li><i class="fa-solid fa-droplet"></i><a href="">Making Crew</a></li>
+                    <li><i class="fa-solid fa-droplet"></i><a href="">Challenge</a></li>
+                    <li><i class="fa-solid fa-droplet"></i><a href="">Information</a></li>
+                </ul>
+                <div class="line">
+                    <p>이용약관</p>
+                    <p>개인정보처리방침</p>
+                    <p>Team.IM HERO</p>
+                </div>
+            </div>
+        </div>
+        <div id="upload-line">
+            <div class="logo-container" >
+                <i class="fa-solid fa-angle-left"></i>
+                <a  href="" class="C">완료</a>
+            </div>
+        </div>
+
+        <form class="up-c">
+            <div class="uploadTitle_div">
+                <input class="uploadTitle" type="text" placeholder="제목"> 
+            </div>
+            <div class="uploadMenu">
+                <div class="menuDate" value="space" >
+                    <i class="fa-solid fa-calendar-days fa-2x"></i><span class="menuDateLetter">날짜</span><input type="date" id="datepicker" autocomplete='off' size=6>
+                </div>
+            <div class="menuImg">
+                <i class="fa-solid fa-image fa-2x"></i>
+                <span class="menuImgLetter">이미지</span><input type="file" id="imgFile" accept="image/png, image/jpeg"><label for="imgFile">업로드</label>
+            </div>
+            
+            </div>
+            <div class="uploadTextarea_div">
+            <textarea class="uploadTextarea" placeholder="아이디어를 입력해주세요"></textarea>
+            </div>
+        </form>
+        
+
+
+
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
