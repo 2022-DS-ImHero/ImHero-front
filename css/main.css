@@ -1,0 +1,167 @@
+@import './total.css';
+
+/*배너부분 */
+
+.outer {
+    width: 100%;
+    height: 300px;  
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.inner-list {
+    display: flex;
+    transition: .5s ease-out;
+    width: 100%;
+    height: 300px;
+}
+
+#banner-2{
+    background-image: url('/img/banner2.jpg');
+    background-size: conver;
+}
+
+#banner-3{
+    background-image: url('/img/banner3.jpg');
+    background-size: conver;
+}
+
+.inner{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background:url('/img/pool1.jpg');
+    background-size: cover;
+    overflow: auto;
+}
+
+.inner p:nth-child(1){
+    font-family: 'IM FELL Double Pica';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 22px;
+    color: #FFFFFF;
+    float: right;
+    margin-top: 80px;
+    padding-right: 18px;
+}
+
+.inner p:nth-child(2){
+    font-family: 'IM FELL Double Pica';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #FFFFFF;
+    clear: right;
+    margin-top: -230px;
+    padding-right: 18px;
+
+}
+
+/*배너 아래 버튼 부분 */
+.button-list{
+    width: 30px;
+    height: 30px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.button-left{
+    position: relative;
+    top:-150px;
+    left: 5px;
+}
+
+.button-right{
+    position: relative;
+    top:-150px;
+    left: 401px;
+}
+
+/*아래 dive 부분 */
+.main-container{
+    width: 90%;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr 1fr ;
+    gap: 15px;
+    text-align: center;
+    
+}
+
+.fa-droplet{
+    color:#002D9C;
+    float: left;
+}
+
+.main-container a{
+    color: black;
+    text-decoration: none;
+}
+
+.main-container a:hover{
+    color: #5f8cff;
+}
+.content-nav{
+    background: url('/img/pool2.jpg');
+    width: 140px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+#dive{
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 205%;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.hide{
+    position: relative;
+    z-index: 2;
+
+    display: none;
+    box-sizing: border-box;
+    width: 140px;
+    height: 120px;
+
+    margin: 0 auto;
+    margin-top: -124px;
+
+    border-radius: 15px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    padding-top: 5px;
+    background-color: rgba(0, 45, 156,0.5);
+    background-size: cover;
+}
+
+#dive:hover .hide{
+    display: block;
+}
+
+/*nav바*/
+
+.navbar{
+    display: none;
+}

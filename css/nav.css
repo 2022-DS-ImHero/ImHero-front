@@ -1,0 +1,140 @@
+@import './total.css';
+
+
+.navbar{
+    position: absolute;
+    width: 280px;
+    height: 90vh;
+    z-index: 100;
+    background: rgba(40, 90, 169, 0.88);
+    border-top-right-radius: 30px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color : #000000
+}
+
+.fa-x{
+    color: white;
+    float: right;
+    margin: 20px;
+}
+
+.duck{ 
+    position: relative;
+    float: right;
+    margin-top: -20px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.name{
+
+    margin-top: 20px;
+    margin-left: 30px;
+
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.mypage{
+
+    margin-top: 20px;
+    margin-left: 30px;
+
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 15px;
+    font-weight: light;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.nav-2{
+    box-sizing: border-box;
+    width: 280px;
+    height: 62vh;
+
+    margin-top: 15px;
+    padding-top: 15px;
+
+    background: #7CA9E3;
+
+    border-bottom-right-radius: 30px;
+}
+
+.navbar li{
+
+    margin-top: 15px;
+    
+    list-style: none;
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.navbar .fa-droplet{
+    color: #5178D9;
+    margin-right: 10px;
+    line-height: 25px;
+}
+
+.line{
+    margin-top: 130px;
+    border-top: 1px solid white;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.line p:nth-child(1){
+    font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 8px;
+        color: #FFFFFF;
+
+}
+
+.line p:nth-child(2){
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 8px;
+    color: #FFFFFF;
+
+}
+
+.line p:nth-child(3){
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100px;
+    
+    color: #FFFFFF;
+
+}

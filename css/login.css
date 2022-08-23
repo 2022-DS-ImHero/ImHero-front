@@ -1,0 +1,109 @@
+@import './total.css';
+
+.login-t{
+
+    margin-top: 20px;
+    font-family: 'IM FELL Double Pica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#logo-line{
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+
+.login .fa-x{
+    color: gray;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.login #id{
+
+    width: 355px;
+    height: 50px;
+
+    background: #F6F6F6;
+
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+
+    display: block;
+    margin: 0 auto;
+    margin-top:70px;
+    padding-left: 10px;
+}
+
+.login img{
+    width: 50px;
+    height:50px;
+    position: relative;
+    left: 330px;
+    top: 380px;
+    z-index: 300;
+}
+
+.login #pw{
+
+    width: 355px;
+    height: 50px;
+    background: #F6F6F6;
+
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+
+    display: block;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+.login-btn{
+
+    padding: 16px 32px;
+
+    position: relative;
+    width: 315px;
+    height: 30px;
+
+    background: #7CA9E3;
+    border-radius: 100px;
+
+    color: white;
+    font-family:'IM FELL Double Pica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.singup-btn{
+    padding: 16px 32px;
+
+    position: relative;
+    width: 315px;
+    height: 30px;
+
+    color: #7CA9E3;
+    font-family: 'IM FELL Double Pica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-top: 20px;
+}
