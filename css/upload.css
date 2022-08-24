@@ -46,7 +46,38 @@
     text-align: center;
 }
 
+.open{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 2%;
+}
 
 form input::file-selector-button {
     display: none;
+}
+
+
+.findTag{
+    font-size: 1em;
+    font-weight: 600;
+    width: 97%;
+    height: 3em;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+}
+
+.menuInput{
+    font-size: 30px;
+    padding-right: 50px;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.menuInput2{
+    font-size: 30px;
+    float: right;
+    margin-right: 1%;
 }
