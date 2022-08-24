@@ -12,24 +12,28 @@
     font-size: 48px;
     line-height: 22px;
     color: #000000;
-
+    background: url('/img/donut.jpg');
 }
 
 .c-search
 {
     font-family: 'Work Sans';
-    color: #525252;
+    color: black;
     font-size: 14px;
     line-height: 44px;
-    
+    background: #F4F4F4;
+    background-size: auto ;
+    opacity: 80%;
     width: 303px;
     height: 50px;
     margin: 0 auto;
     margin-top: 50px;
-    background: #F4F4F4;
     border-radius: 24px;
 }
 
+.fa-pen{
+    margin-left: 180px;
+}
 .crew-main .fa-magnifying-glass{
     margin-left: 15px;
     margin-right: 10px;
