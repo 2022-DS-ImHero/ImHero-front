@@ -1,0 +1,77 @@
+@import './total.css';
+
+#upload-line{
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+
+.detail img{
+    display: block;
+    width: 100%;
+    height: 45vh;
+    margin: 0 auto;
+    }
+
+.detail{
+    width: 88%;
+    height: fit-content;
+    border: 1px solid #D9D9D9;
+    margin: 0 auto;
+}
+
+.tagName{
+    
+    font-family: 'IM FELL Double Pica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7E7E7E;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.cha-title{
+    
+    font-family: 'IM FELL Double Pica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    border-bottom: 1px solid #D9D9D9;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #000000;
+    margin-top: 1%;
+    padding-left: 6%;
+}
+
+.menubar{
+    display: grid;
+    margin-left: 15%;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.detail-content{
+    border-top: 1px solid #D9D9D9;
+    padding-left: 6%;
+    padding-top: 1%;
+    height: 70vh;
+}
+
+.cha-sub{   
+    width: 99px;
+    height: 39px;
+    margin: 0 auto;
+    display: block;
+
+    border: 1px solid #C9C9C9;
+    margin-bottom: 2%;
+}
+
+.fa-heart{
+    float: right;
+    margin-right: 2%;
+    margin-top: -1.5%;
+    color: black;
+}

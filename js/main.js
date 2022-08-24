@@ -53,3 +53,9 @@ function hidenav(){
     document.querySelector('.navbar').style.display = 'none'
 }
 
+function plus(){
+
+    var heart = document.querySelector('.fa-heart');
+    heart.style.color = ((heart.style.color =='black')?'red':'black');
+
+}

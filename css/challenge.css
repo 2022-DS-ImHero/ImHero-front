@@ -1,8 +1,9 @@
 @import './total.css';
 
-.mp-title{
 
-    width: 194px;
+.cha-title{
+
+    width: fit-content;
     height: 22px;
     margin: 0 auto;
     margin-top: 75px;
@@ -11,128 +12,58 @@
     font-size: 48px;
     line-height: 22px;
     color: #000000;
+    background: url('/img/donut.jpg');
 }
 
-.self{
-    width: 140px;
-    display: block;
-    height: 140px;
+.cha-search
+{
+    font-family: 'Work Sans';
+    color: black;
+    font-size: 14px;
+    line-height: 44px;
+    background: #F4F4F4;
+    background-size: auto ;
+    opacity: 80%;
+    width: 303px;
+    height: 50px;
     margin: 0 auto;
-    margin-top: 40px;
-    border: 4px solid #FFFFFF;
-    border-radius: 50%;
+    margin-top: 50px;
+    border-radius: 24px;
 }
 
-.whitebg{
-    background-color: white;
-    height:45%;
-    margin-top: -70px;
+.cha-main .fa-magnifying-glass{
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
-.myname{
-
-    width: 100px;
-    height: 36px;
-
-    margin: 0 auto;
-    padding-top: 80px;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-
-    color: #000000;
-
+.cha-content a{
+    text-decoration: none;
 }
 
-.intro{
-
-    width: 200px;
-    height: 19px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 35px;
-    text-align: center;
-    margin: 0 auto;
-    color: #000000;
-}
-
-.jandi{
-    width: 165px;
-    height: 35px;
-
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: 4%;
-    margin-left: 15%;
-
-    color: #000000;
-}
-
-.jandihaaa{
-    background-color: blanchedalmond;
-    width: 65vw;
-    height: 20vh;
-    margin: 0 auto;
-}
-
-.myCha{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: 5%;
-
-    margin-left: 6%;
-    color: #000000;
-
-}
-
-.myC-div{
-    overflow:visible;
-    width: 80vw;
-    height: 100vh;
-    margin:  0 auto;
-}
-
-.myClist{
-    overflow-x: scroll;
-    flex-direction: row;
-    display: flex;
-    margin:1%;
-    padding-bottom: 1%;
-}
-
-.chaDiv{
-    width: 150px;
-    height: 150px;
-    background: #D0D0D0;
-    border-radius: 4px;
-    margin-right: 20px;
-    padding: 2%;
-}
 
 @media screen and (max-width:1799px) {
     /* 데스크탑 */
+    .cha-content{
+        width: 90vw;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 8%;
+        margin: 0 auto;
+        margin-top:3%;
+    }
+    
     .chaDiv{
-        width: 12vw;
-        height: 30vh;
+        width: 13vw;
+        height: 32vh;
         background: #ffffff;
         border: 1px solid #CFCFCF;
         margin-left: 100px;
-        padding: 0;
     }
     
-    .chaDiv img{
-        width: 12vw;
-        height: 15vh;
+    .cha-content img{
+        width: 13vw;
+        height: 17vh;
         border-bottom: 1px solid #CFCFCF;
     }
     
@@ -172,68 +103,27 @@
     
 @media screen and (max-width:1280px) {
 /* 타블렛 가로 */ 
-.chaDiv{
-    width: 13vw;
-    height: 30vh;
-    background: #ffffff;
-    border: 1px solid #CFCFCF;
-    margin-left: 100px;
-    padding: 0;
-}
-
-.chaDiv img{
-    width: 13vw;
-    height: 15vh;
-    border-bottom: 1px solid #CFCFCF;
-}
-
-.cha-tag{
-    font-family: 'IM FELL Double Pica';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
-    padding-left: 2%;
-    color: #7E7E7E;
-    border-bottom: 1px solid #CFCFCF;
-    
-}
-
-.cha-t{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 42px;
-    padding-left: 2%;
-    color: #000000;
-    border-bottom: 1px solid #CFCFCF;
-}
-
-.cha-date{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 32px;
-    text-align: center;
-
-    color: #000000;
-
-}
-
-}
-@media screen and (max-width:899px) {
-    .chaDiv{
-        width: 30vw;
-        height: 20vh;
-        background: #ffffff;
-        border: 1px solid #CFCFCF;
-        margin-left: 100px;
-        padding: 0;
+    .cha-content{
+        width: 90vw;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10%;
+        margin: 0 auto;
+        margin-top:3%;
     }
     
-    .chaDiv img{
-        width: 33vw;
-        height: 13vh;
+    .chaDiv{
+        width: 16vw;
+        height: 36vh;
+        background: #ffffff;
+        border: 1px solid #CFCFCF;
+        margin-left: 45px;
+    }
+    
+    .cha-content img{
+        width: 16vw;
+        height: 17vh;
         border-bottom: 1px solid #CFCFCF;
     }
     
@@ -242,7 +132,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 32px;
+        line-height: 38px;
         padding-left: 2%;
         color: #7E7E7E;
         border-bottom: 1px solid #CFCFCF;
@@ -251,8 +141,67 @@
 
     .cha-t{
         font-weight: 400;
-        font-size: 13px;
-        line-height: 42px;
+        font-size: 14px;
+        line-height: 38px;
+        padding-left: 2%;
+        color: #000000;
+        border-bottom: 1px solid #CFCFCF;
+    }
+
+    .cha-date{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+
+        color: #000000;
+
+    }
+
+}
+@media screen and (max-width:899px) {
+    .cha-content{
+        width: 90vw;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10%;
+        margin: 0 auto;
+        margin-top:3%;
+    }
+    
+    .chaDiv{
+        width: 23vw;
+        height: 22vh;
+        background: #ffffff;
+        border: 1px solid #CFCFCF;
+        margin-left: 8px;
+    }
+    
+    .cha-content img{
+        width: 23vw;
+        height: 12vh;
+        border-bottom: 1px solid #CFCFCF;
+    }
+    
+    .cha-tag{
+        font-family: 'IM FELL Double Pica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 38px;
+        padding-left: 2%;
+        color: #7E7E7E;
+        border-bottom: 1px solid #CFCFCF;
+        
+    }
+
+    .cha-t{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 38px;
         padding-left: 2%;
         color: #000000;
         border-bottom: 1px solid #CFCFCF;
@@ -272,18 +221,27 @@
 }
 @media screen and (max-width:599px) {
     /* 모바일 세로 */
-    .chaDiv{
-        width: 30vw;
-        height: 20vh;
-        background: #ffffff;
-        border: 1px solid #CFCFCF;
-        margin-left: 100px;
-        padding: 0;
+    .cha-content{
+        width: 90vw;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 8%;
+        margin: 0 auto;
+        margin-top:3%;
     }
     
-    .chaDiv img{
-        width: 35vw;
-        height: 11vh;
+    .chaDiv{
+        width: 33vw;
+        height: 28vh;
+        background: #ffffff;
+        border: 1px solid #CFCFCF;
+        margin-left: 20px;
+    }
+    
+    .cha-content img{
+        width: 33vw;
+        height: 12vh;
         border-bottom: 1px solid #CFCFCF;
     }
     
@@ -292,7 +250,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 38px;
         padding-left: 2%;
         color: #7E7E7E;
         border-bottom: 1px solid #CFCFCF;
@@ -301,8 +259,8 @@
 
     .cha-t{
         font-weight: 400;
-        font-size: 13px;
-        line-height: 42px;
+        font-size: 14px;
+        line-height: 38px;
         padding-left: 2%;
         color: #000000;
         border-bottom: 1px solid #CFCFCF;
@@ -323,18 +281,27 @@
 
 @media screen and (max-width:420px) {
     /* 모바일 세로 */
-    .chaDiv{
-        width: 38vw;
-        height: 20vh;
-        background: #ffffff;
-        border: 1px solid #CFCFCF;
-        margin-left: 30px;
-        padding: 0;
+    .cha-content{
+        width: 90vw;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 8%;
+        margin: 0 auto;
+        margin-top:3%;
     }
     
-    .chaDiv img{
-        width: 38vw;
-        height: 10vh;
+    .chaDiv{
+        width: 35vw;
+        height: 28vh;
+        background: #ffffff;
+        border: 1px solid #CFCFCF;
+        margin-left: 20px;
+    }
+    
+    .cha-content img{
+        width: 35vw;
+        height: 11vh;
         border-bottom: 1px solid #CFCFCF;
     }
     
@@ -342,8 +309,8 @@
         font-family: 'IM FELL Double Pica';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 28px;
+        font-size: 15px;
+        line-height: 35px;
         padding-left: 2%;
         color: #7E7E7E;
         border-bottom: 1px solid #CFCFCF;
@@ -352,8 +319,8 @@
 
     .cha-t{
         font-weight: 400;
-        font-size: 13px;
-        line-height: 28px;
+        font-size: 11px;
+        line-height: 35px;
         padding-left: 2%;
         color: #000000;
         border-bottom: 1px solid #CFCFCF;
@@ -363,8 +330,8 @@
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 13px;
-        line-height: 28px;
+        font-size: 14px;
+        line-height: 32px;
         text-align: center;
 
         color: #000000;
@@ -372,7 +339,8 @@
     }
 }
 
-
-.myC-div a{
-    text-decoration: none;
+.findTag{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
 }

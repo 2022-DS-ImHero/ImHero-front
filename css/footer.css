@@ -1,0 +1,36 @@
+@import './total.css';
+
+.footer1{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 13vh;
+    width: 100vw;
+    height: 15vh;
+    border-top:  1px solid #000000;
+    gap: 38%;
+}
+
+.use{
+
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size:10px;
+    width:140px;
+    color: #000000;
+    padding-top: 30%;
+    margin-left: 20px;
+}
+
+.name{
+
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width:140px;
+    text-align: center;
+    color: #000000;
+    margin-left: -40%;
+}
