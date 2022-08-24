@@ -53,7 +53,3 @@ function hidenav(){
     document.querySelector('.navbar').style.display = 'none'
 }
 
-
-$("#datepicker").datepicker( {
-    format: "mm-yyyy",
-});

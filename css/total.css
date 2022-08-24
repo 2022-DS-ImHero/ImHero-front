@@ -1,8 +1,3 @@
-body{
-    background-color: darkgray;
-    margin: 0;
-    overflow-y: hidden;
-}
 
 ::-webkit-scrollbar { 
     /* display: none;
@@ -21,18 +16,22 @@ body{
     border-radius: 10px;   
 
 }
-.container{
+body{
+    margin-left: 0;
+    
     margin: 0 auto;
     background-color: white;
-    width: 430px;
+    width:100%;
     height: 100vh;
     box-sizing: border-box;
     padding-top: 20px;
+    overflow-y: scroll;
 }
+
 .container2{
     margin: 0 auto;
     background-color: #7CA9E3;
-    width: 430px;
+    width:100%;
     height: 100vh;
     box-sizing: border-box;
     padding-top: 20px;
@@ -47,20 +46,80 @@ body{
 }
 
 .logo-container{
-    column-width: 400px;
-    margin-left: 20px;
+    column-width: 100%;
+    margin-left:2vw;
     font-size: 18px;
 }
 
-.fa-water{
-    color: #002D9C;
-    margin-right: 5px;
+@media screen and (max-width:1799px) {
+    /* 데스크탑 */
+    .fa-magnifying-glass{
+        margin-left: 85vw;
+    }
+
+    .c{
+        margin-left: 92vw;
+    }
+    }
+    
+@media screen and (max-width:1280px) {
+/* 타블렛 가로 */
+    .fa-magnifying-glass{
+        margin-left: 80vw;
+    }
+
+    .c{
+        margin-left: 87vw;
+    }
+}
+@media screen and (max-width:899px) {
+/* 모바일 가로, 타블렛 세로 */
+    .fa-magnifying-glass{
+        margin-left: 70vw;
+    }
+    .c{
+        margin-left: 85vw;
+    }
 }
 
-.fa-magnifying-glass{
-    margin-left: 225px;
-    margin-right: 5px;
+@media screen and (max-width:599px) {
+/* 모바일 세로 */
+    .fa-magnifying-glass{
+        margin-left: 59vw;
+    }
+    .c{
+        margin-left: 80vw;
+    }
 }
+
+@media screen and (max-width:420px) {
+    /* 모바일 세로 */
+        .fa-magnifying-glass{
+            margin-left: 52vw;
+        }
+
+        .c{
+            margin-left: 73vw;
+        }
+    }
+
+@media screen and (max-width:400px) {
+    /* 모바일 세로 */
+        .fa-magnifying-glass{
+            margin-left: 49vw;
+        }
+
+        .c{
+            margin-left: 75vw;
+        }
+    }
+
+
+.fa-water{
+    color: #002D9C;
+    margin-right: 1vw;
+}
+
 
 .Login{
     padding: 5px;
@@ -80,12 +139,11 @@ body{
     color: #000000;
 }
 
-.C{
+.c{
     width: 67px;
     height: 51px;
     font-size: 22px;
     line-height: 22px;
     font-family: 'Inter';
-    margin-left: 80%;
     color: black;
 }

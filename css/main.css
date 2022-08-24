@@ -1,10 +1,12 @@
 @import './total.css';
 
+
+
 /*배너부분 */
 
 .outer {
     width: 100%;
-    height: 300px;  
+    height: 60vh;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -13,51 +15,267 @@
     display: flex;
     transition: .5s ease-out;
     width: 100%;
-    height: 300px;
-}
-
-#banner-2{
-    background-image: url('/img/banner2.jpg');
-    background-size: conver;
-}
-
-#banner-3{
-    background-image: url('/img/banner3.jpg');
-    background-size: conver;
+    height: 60vh;
 }
 
 .inner{
     margin-top: 20px;
     width: 100%;
-    height: 300px;
+    height: 60vh;
     background:url('/img/pool1.jpg');
     background-size: cover;
     overflow: auto;
 }
 
-.inner p:nth-child(1){
-    font-family: 'IM FELL Double Pica';
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 22px;
-    color: #FFFFFF;
-    float: right;
-    margin-top: 80px;
-    padding-right: 18px;
+#banner-2{
+    background-image: url('/img/banner2.jpg');
+    background-size: cover;
 }
 
-.inner p:nth-child(2){
-    font-family: 'IM FELL Double Pica';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: right;
-    color: #FFFFFF;
-    clear: right;
-    margin-top: -230px;
-    padding-right: 18px;
-
+#banner-3{
+    background-image: url('/img/banner3.jpg');
+    background-size:cover;
 }
+
+
+@media screen and (max-width:1799px) {
+    /* 데스크탑 */
+    .inner p:nth-child(1){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 22px;
+        color: #FFFFFF;
+        float: right;
+        margin-top: 80px;
+        padding-right: 25px;
+    }
+    
+    .inner p:nth-child(2){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: right;
+        color: #FFFFFF;
+        clear: right;
+        margin-top: -230px;
+        padding-right: 25px;
+    
+    }
+    .button-left{
+        position: relative;
+        top: -35%;
+        left:0.6vw;
+    
+    }
+    
+    .button-right{
+        position: relative;
+        top: -35%;
+        left: 97.8vw;
+    }
+    }
+    
+@media screen and (max-width:1280px) {
+/* 타블렛 가로 */
+    .inner p:nth-child(1){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 22px;
+        color: #FFFFFF;
+        float: right;
+        margin-top: 80px;
+        padding-right: 25px;
+    }
+
+    .inner p:nth-child(2){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: right;
+        color: #FFFFFF;
+        clear: right;
+        margin-top: -230px;
+        padding-right: 25px;
+
+    }
+
+    .button-left{
+        position: relative;
+        top: -35%;
+        left:1vw;
+    
+    }
+    
+    .button-right{
+        position: relative;
+        top: -35%;
+        left: 96.5vw;
+    }
+}
+@media screen and (max-width:899px) {
+    /* 모바일 가로, 타블렛 세로 */
+    .inner p:nth-child(1){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 22px;
+        color: #FFFFFF;
+        float: right;
+        margin-top: 80px;
+        padding-right:  25px;
+    }
+
+    .inner p:nth-child(2){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 45px;
+        text-align: right;
+        color: #FFFFFF;
+        clear: right;
+        margin-top: -230px;
+        padding-right:  25px;
+
+    }
+
+    .button-left{
+        position: relative;
+        top: -35%;
+        left: 1vw;
+    
+    }
+    
+    .button-right{
+        position: relative;
+        top: -35%;
+        left: 96.7vw;
+    }
+}
+
+@media screen and (max-width:599px) {
+    /* 모바일 세로 */
+    .inner p:nth-child(1){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 22px;
+        color: #FFFFFF;
+        float: right;
+        margin-top: 80px;
+        padding-right:  25px;
+    }
+
+    .inner p:nth-child(2){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: right;
+        color: #FFFFFF;
+        clear: right;
+        margin-top: -230px;
+        padding-right:  25px;
+
+    }
+
+    .button-left{
+        position: relative;
+        top: -35%;
+        left:1vw;
+    
+    }
+    
+    .button-right{
+        position: relative;
+        top: -35%;
+        left: 94.4vw;
+    }
+}
+
+@media screen and (max-width:420px) {
+    /* 모바일 세로 */
+    .inner p:nth-child(1){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 22px;
+        color: #FFFFFF;
+        float: right;
+        margin-top: 80px;
+        padding-right:  25px;
+    }
+    
+    .inner p:nth-child(2){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: right;
+        color: #FFFFFF;
+        clear: right;
+        margin-top: -230px;
+        padding-right:  25px;
+    
+    }
+
+    .button-left{
+        position: relative;
+        top: -35%;
+        left: 1vw;
+    
+    }
+    
+    .button-right{
+        position: relative;
+        top: -35%;
+        left: 93vw;
+    }
+    }
+
+@media screen and (max-width:400px) {
+    /* 모바일 세로 */
+    .inner p:nth-child(1){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 22px;
+        color: #FFFFFF;
+        float: right;
+        margin-top: 80px;
+        padding-right: 25px;
+    }
+    
+    .inner p:nth-child(2){
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: right;
+        color: #FFFFFF;
+        clear: right;
+        margin-top: -230px;
+        padding-right: 25px;
+    
+    }
+
+    .button-left{
+        position: relative;
+        top: -35%;
+        left: 0.5vw;
+    
+    }
+    
+    .button-right{
+        position: relative;
+        top: -35%;
+        left: 93vw;
+    }
+    }
+
 
 /*배너 아래 버튼 부분 */
 .button-list{
@@ -68,22 +286,147 @@
     font-size: 15px;
 }
 
-.button-left{
-    position: relative;
-    top:-150px;
-    left: 5px;
-}
 
-.button-right{
-    position: relative;
-    top:-150px;
-    left: 401px;
-}
 
 /*아래 dive 부분 */
+
+@media screen and (max-width:1799px) {
+    /* 데스크탑 */
+    .main-container{
+        width: 90%;
+        height: 300px;
+        
+        margin-top: 20px;
+        margin-left: 30px;
+        font-family: 'IM FELL English';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+    
+        display: inline-grid;
+        grid-template-columns:repeat(4,1fr);
+        gap: 15px;
+        text-align: center;
+        margin-left: 6vw;
+    }
+    .content-nav{
+        background: url('/img/pool2.jpg');
+        width: 16vw;
+        height: 14vw;
+        border-radius: 15px;
+        background-size: cover;
+        display: inline-block;
+    }
+    
+    .hide{
+        position: relative;
+        z-index: 2;
+    
+        display: none;
+        box-sizing: border-box;
+        width: 16vw;
+        height: 14vw;
+    
+        margin: 0 auto;
+        margin-top: -197px;
+    
+        border-radius: 15px;
+    
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 35px;
+        padding-top: 55px;
+        background-color: rgba(0, 45, 156,0.5);
+        background-size: cover;
+    }
+    #dive{
+        font-family: 'IM FELL English';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 330%;
+        align-items: center;
+        text-align: center;
+    
+        color: #FFFFFF;
+    }
+
+
+    }
+    
+@media screen and (max-width:1280px) {
+/* 타블렛 가로 */   .main-container{
+        width: 90%;
+        height: 300px;
+        
+        margin-top: 20px;
+        margin-left: 30px;
+        font-family: 'IM FELL English';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+    
+        display: inline-grid;
+        grid-template-columns:repeat(4,1fr);
+        gap: 15px;
+        text-align: center;
+        
+    }
+    .content-nav{
+        background: url('/img/pool2.jpg');
+        width: 16vw;
+        height: 14vw;
+        border-radius: 15px;
+        background-size: cover;
+        display: inline-block;
+    }
+    
+    .hide{
+        position: relative;
+        z-index: 2;
+    
+        display: none;
+        box-sizing: border-box;
+        width: 16vw;
+        height: 14vw;
+    
+        margin: 0 auto;
+        margin-top: -150px;
+    
+        border-radius: 15px;
+    
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 35px;
+        padding-top: 25px;
+        background-color: rgba(0, 45, 156,0.5);
+        background-size: cover;
+    }
+
+
+    #dive{
+        font-family: 'IM FELL English';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 250%;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+}
+
+@media screen and (max-width:899px) {
+/* 모바일 가로, 타블렛 세로 */
+       
 .main-container{
     width: 90%;
     height: 300px;
+    
     margin-top: 20px;
     margin-left: 30px;
     font-family: 'IM FELL English';
@@ -99,11 +442,273 @@
     text-align: center;
     
 }
+.content-nav{
+    background: url('/img/pool2.jpg');
+    width: 40vw;
+    height: 30vw;
+    border-radius: 15px;
+    background-size: cover;
+    display: inline-block;
+}
 
+.hide{
+    position: relative;
+    z-index: 2;
+
+    display: none;
+    box-sizing: border-box;
+    width: 40vw;
+    height: 30vw;
+
+    margin: 0 auto;
+    margin-top: -255px;
+
+    border-radius: 15px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    padding-top: 65px;
+    background-color: rgba(0, 45, 156,0.5);
+    background-size: cover;
+}
+
+#dive{
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 320%;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+}
+
+@media screen and (max-width:599px) {
+/* 모바일 세로 */
+     
+.main-container{
+    width: 90%;
+    height: 300px;
+    
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr 1fr ;
+    gap: 15px;
+    text-align: center;
+    
+}
+.content-nav{
+    background: url('/img/pool2.jpg');
+    width: 40vw;
+    height: 30vw;
+    border-radius: 15px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.hide{
+    position: relative;
+    z-index: 2;
+
+    display: none;
+    box-sizing: border-box;
+    width: 40vw;
+    height: 30vw;
+
+    margin: 0 auto;
+    margin-top: -160px;
+
+    border-radius: 15px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    padding-top: 35px;
+    background-color: rgba(0, 45, 156,0.5);
+    background-size: cover;
+}
+
+#dive{
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 270%;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+}
+
+@media screen and (max-width:420px) {
+    /* 모바일 세로 */
+
+.main-container{
+    width: 90%;
+    height: 300px;
+    
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr 1fr ;
+    gap: 15px;
+    text-align: center;
+    
+}
+.content-nav{
+    background: url('/img/pool2.jpg');
+    width: 40vw;
+    height: 40vw;
+    border-radius: 15px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.hide{
+    position: relative;
+    z-index: 2;
+
+    display: none;
+    box-sizing: border-box;
+    width: 40vw;
+    height: 40vw;
+
+    margin: 0 auto;
+    margin-top: -160px;
+
+    border-radius: 15px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    padding-top: 35px;
+    background-color: rgba(0, 45, 156,0.5);
+    background-size: cover;
+}
+#dive{
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 270%;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+    }
+
+@media screen and (max-width:400px) {
+    /* 모바일 세로 */
+
+    .main-container{
+        width: 90%;
+        height: 300px;
+        
+        margin-top: 20px;
+        margin-left: 30px;
+        font-family: 'IM FELL English';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+    
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr 1fr ;
+        gap: 15px;
+        text-align: center;
+        
+    }
+    .content-nav{
+        background: url('/img/pool2.jpg');
+        width: 40vw;
+        height: 40vw;
+        border-radius: 15px;
+        background-size: cover;
+        display: inline-block;
+    }
+    
+    .hide{
+        position: relative;
+        z-index: 2;
+    
+        display: none;
+        box-sizing: border-box;
+        width: 40vw;
+        height: 40vw;
+    
+        margin: 0 auto;
+        margin-top: -150px;
+    
+        border-radius: 15px;
+    
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        padding-top: 45px;
+        background-color: rgba(0, 45, 156,0.5);
+        background-size: cover;
+    }
+    #dive{
+        font-family: 'IM FELL English';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 250%;
+        align-items: center;
+        text-align: center;
+    
+        color: #FFFFFF;
+    }
+
+    }
+
+#m1{
+    width: fit-content;
+    height: fit-content;
+}
+#m2{
+    width: fit-content;
+    height: fit-content;
+}
+#m3{
+    width: fit-content;
+    height: fit-content;
+}
+#m4{
+    width: fit-content;
+    height: fit-content;
+}
 .fa-droplet{
     color:#002D9C;
-    float: left;
 }
+
 
 .main-container a{
     color: black;
@@ -113,48 +718,8 @@
 .main-container a:hover{
     color: #5f8cff;
 }
-.content-nav{
-    background: url('/img/pool2.jpg');
-    width: 140px;
-    height: 120px;
-    margin: 0 auto;
-    border-radius: 15px;
-    background-size: cover;
-}
 
-#dive{
-    font-family: 'IM FELL English';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 205%;
-    align-items: center;
-    text-align: center;
 
-    color: #FFFFFF;
-}
-
-.hide{
-    position: relative;
-    z-index: 2;
-
-    display: none;
-    box-sizing: border-box;
-    width: 140px;
-    height: 120px;
-
-    margin: 0 auto;
-    margin-top: -124px;
-
-    border-radius: 15px;
-
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 35px;
-    padding-top: 5px;
-    background-color: rgba(0, 45, 156,0.5);
-    background-size: cover;
-}
 
 #dive:hover .hide{
     display: block;

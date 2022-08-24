@@ -33,7 +33,7 @@
     padding: 16px 32px;
     display: block;
 
-    width: 315px;
+    width: 40vh;
     height: 50px;
     border: none;
 
@@ -55,14 +55,16 @@
 
 form p{
     font-family: 'Inter';
-    margin-left: 30px;
-    margin-bottom: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    
     line-height: 20px;
 }
 
 #name {
 
-    width: 355px;
+    width: 40vh;
     height: 45px;
 
     background: #F6F6F6;
@@ -77,39 +79,9 @@ form p{
     margin-bottom: -20px;
 }
 
-#s-num {
-
-    width: 355px;
-    height: 45px;
-
-    background: #F6F6F6;
-
-    border: 1px solid #E8E8E8;
-    border-radius: 8px;
-
-    display: block;
-    margin: 0 auto;
-    padding-left: 10px;
-    margin-bottom: -20px;
-}
-#p-pw {
-
-    width: 355px;
-    height: 45px;
-
-    background: #F6F6F6;
-
-    border: 1px solid #E8E8E8;
-    border-radius: 8px;
-
-    display: block;
-    margin: 0 auto;
-    padding-left: 10px;
-    margin-bottom: -20px;
-}
 #email {
 
-    width: 355px;
+    width: 40vh;
     height: 45px;
 
     background: #F6F6F6;
@@ -124,7 +96,7 @@ form p{
 }
 #id {
 
-    width: 355px;
+    width: 40vh;
     height: 45px;
 
     background: #F6F6F6;
@@ -139,7 +111,7 @@ form p{
 }
 #pw {
 
-    width: 355px;
+    width: 40vh;
     height: 45px;
 
     background: #F6F6F6;
@@ -174,41 +146,45 @@ form p{
 
 .choiceM{
 
-    width: 166px;
-    height: 175px;
-    display: inline;
+    width: fit-content;
+    height: fit-content;
+    display: block;
     border-radius: 15px;
-    margin-left: 40px;
-    padding: 0;
+    margin:0 auto;
+
 }
 
-.choiceM :nth-child(1){
-    margin-right: 10px;
+
+.radio{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
 }
 
-.choiceT{
-    display: grid;
-    grid-template-columns: 200px 160px;
-    text-align: center;
-    margin-left: 30px;
+#choiceR1{
+    margin-right: 20vh;
 }
 
 .choiceT :nth-child(1){
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 5px;
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    padding-left: 4vh;
+    text-align: center;
 }
 
 .choiceT :nth-child(2){
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 5px;
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin: 0 auto;
+    padding-left: 10vh;
 }
 
 
-#choiceR1{
-    margin-left: 28%;
-}
-#choiceR2{
-    margin-left: 37%;
+.choiceT{
+    text-align: center;
 }
