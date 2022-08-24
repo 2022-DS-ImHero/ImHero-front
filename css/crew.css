@@ -238,3 +238,8 @@
     height: fit-content;
     margin: 0 auto;
 }
+
+select{
+    margin-top: 5px;
+    padding: 3px;
+}

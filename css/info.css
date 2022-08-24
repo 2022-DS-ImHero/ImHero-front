@@ -1,0 +1,114 @@
+@import './total.css';
+
+
+.info-title{
+
+    width: 194px;
+    height: 22px;
+    margin: 0 auto;
+    margin-top: 75px;
+    font-family: 'IM FELL Double Pica';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.support{
+    overflow:visible;
+    width: 80vw;
+    height: 100vh;
+    margin:  0 auto;
+}
+.info-main{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.info-main a{
+    text-decoration: none;
+    color: #000;
+}
+
+.s-t{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 22px;
+    padding-left: 1.2%;
+
+    color: #000000;
+}
+
+.s-t2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 22px;
+    padding-left: 1.2%;
+    margin-top:3%;
+    color: #000000;
+}
+
+.support-1{
+    overflow-x: scroll;
+    flex-direction: row;
+    display: flex;
+    margin:1%;
+}
+.suDiv{
+    width: 130px;
+    height: 130px;
+    background: #D0D0D0;
+    border-radius: 4px;
+    margin-right: 20px;
+    padding: 2%;
+}
+
+.support-2{
+    overflow-x: scroll;
+    flex-direction: row;
+    display: flex;
+    margin:1%;
+}
+
+.suDiv2{
+    width: 400px;
+    height: 90px;
+    padding: 2%;
+    background: #F4F4F4;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 40px;
+}
+
+.s-t3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 22px;
+    padding-left: 1.2%;
+    margin-top:3%;
+    color: #000000;
+}
+
+.support-3{
+    overflow-x: scroll;
+    flex-direction: row;
+    display: flex;
+    margin:1%;
+}
+
+.suDiv3{
+    width: 200px;
+    height: 250px;
+
+    background: url(/img/profile.jpg);
+    background-size: cover;
+    border-radius: 15px;
+
+    margin-right: 20px;
+}
