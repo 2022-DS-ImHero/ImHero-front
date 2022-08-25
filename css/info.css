@@ -96,6 +96,7 @@
 }
 
 .support-3{
+    
     overflow-x: scroll;
     flex-direction: row;
     display: flex;
@@ -112,3 +113,4 @@
 
     margin-right: 20px;
 }
+
