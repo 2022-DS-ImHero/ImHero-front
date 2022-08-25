@@ -255,6 +255,7 @@
     font-size: 48px;
     line-height: 22px;
     color: #000000;
+    background: url('/img/donut.jpg');
 
 }
 
@@ -294,12 +295,116 @@
 .fa-file-pen{
     position: fixed;
     top: 85%;
-    left: 65%;
+    left: 85%;
     width: 60px;
     height: 60px;
-    background: #BCD7FF;
+    background: #9DCFFF;
     font-size: 30px;
     text-align: center;
     line-height: 60px;
     border-radius: 50%;
+}
+
+
+
+/*  모달창 css  */
+
+#modal2{
+    display: none;
+    margin-top: 10vh;
+}
+#modalX{
+    color: black;
+    position: relative;
+    top: 2.5vh;
+}
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#modalX{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.modal-window {
+    position: relative;
+    padding: 10px;
+    width: 60vw;
+    height: 61vh;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.modal-window .title{
+    width: fit-content;
+    height: fit-content;
+    font-size:4vh;
+    margin: 0 auto;
+    font-weight: 200;
+}
+
+
+.close-area {
+    width: 15vh;
+    height: 4vh;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.contents {
+    background: #dae7ff;
+    width: 58vw;
+    height: 48vh;
+    border-radius: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 3vh;
+}
+
+.uploadTextarea {
+    width: 60vw;
+    height: 60vh;
+    overflow-x: hidden;
+    font-size: 1.2em;
+    border: none;
+    box-sizing: border-box;
+    padding: 5vh;
+    background: none;
+}
+
+.uploadTitle {
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 60vw;
+    height: 5vh;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 2vh;
+    padding-left: 7vh;
+    background: none;
 }

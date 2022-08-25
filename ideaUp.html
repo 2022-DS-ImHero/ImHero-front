@@ -130,9 +130,27 @@
         </div>
 
         <div class="addIdea">
-            <i class="fa-solid fa-file-pen"></i>
+            <i class="fa-solid fa-file-pen" onclick="modalOn();" ></i>
         </div>
     
+            <div id="modal2" class="modal-overlay">
+                <div class="modal-window" id="acamodal">
+                    <i class="fa-solid fa-x" id="modalX" onclick="modalOff();"></i>
+                    <div class="title">Upload</div>
+                    <div class="contents">
+                        <form class="up-c">
+                            <div class="uploadTitle_div">
+                                <input class="uploadTitle" type="text" placeholder="제목"> 
+                            </div>
+                            <div class="uploadTextarea_div">
+                            <textarea class="uploadTextarea" placeholder="아이디어를 입력해주세요"></textarea>
+                            </div>
+                        </form>
+                        
+                    </div>
+                    <button class="close-area" id="closeaca">완료</button>
+                </div>
+            </div>
     <script src="/js/main.js"></script>
 </body>
 </html>
