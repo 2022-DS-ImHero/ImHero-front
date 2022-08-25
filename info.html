@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=IM+Fell+Double+Pica" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=IM+Fell+English" />
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="/css/map.css">
+    <link rel="stylesheet" href="/css/maps.css">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8488ab8ec78c1a935c3b79b2fc8f5ba9&libraries=services"></script>
     <title>ideaup</title>
 </head>
 <body>
@@ -125,33 +128,39 @@
             
             <p class="s-t2">창업공간</p>
             <div class="support-2">
-                <a href="">
+            
+                    <div class="suDiv2">
+                        [창업진흥원_창업공간 플랫폼]
+                        <br>(https://www.data.go.kr/data/15043133/openapi.do)
+                        <br>
+                        <p class="lat">37.58488124361632</p>
+                        <br>
+                        <p class="lon">126.92576302560484</p>
+                    </div>
+
                     <div class="suDiv2">
                         [창업진흥원_창업공간 플랫폼]
                         <br>(https://www.data.go.kr/data/15043133/openapi.do)
                     </div>
-                </a>
-                <a href="">
+            
                     <div class="suDiv2">
                         [창업진흥원_창업공간 플랫폼]
                         <br>(https://www.data.go.kr/data/15043133/openapi.do)
                     </div>
-                </a>
-                <a href="">
+                
+                
                     <div class="suDiv2">
                         [창업진흥원_창업공간 플랫폼]
                         <br>(https://www.data.go.kr/data/15043133/openapi.do)
                     </div>
-                </a>
-                <a href="">
-                    <div class="suDiv2">
-                        [창업진흥원_창업공간 플랫폼]
-                        <br>(https://www.data.go.kr/data/15043133/openapi.do)
-                    </div>
-                </a>
+                
+
+                
 
             </div>
-
+                <div class="map_wrap">
+                    <div id="map" style="width: 400px;;height:400px;position:relative;overflow:hidden;"></div>
+                </div>
             <p class="s-t3">여성창업자</p>
             <div class="support-3">
                 <a href="">
@@ -175,5 +184,6 @@
         </div>
     
     <script src="/js/main.js"></script>
+    <script src="/js/map.js"></script>
 </body>
 </html>
