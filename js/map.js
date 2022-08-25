@@ -1,15 +1,24 @@
 function findmap(){
 
-    var lat = document.querySelectorAll('.lat').innerText;
-    var lon = document.querySelectorAll('.lon').innerText;
-    
-    
-    console.log(lat);
-    console.log(lon);
-    
+    var array = document.querySelectorAll('.suDiv2');
+    var lat = document.querySelectorAll('.lat');
+    var lon = document.querySelectorAll('.lon');
+
+
+    array.forEach((el, index) => {
+        el.onclick = () => {
+
+            var lat1 = lat[index].textContent;
+            var lon1 = lon[index].textContent;
+          console.log(index);
+          console.log(lat1);
+          console.log(lon1);
+        }
+        
+    });
     var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
         mapOption = { 
-            center: new kakao.maps.LatLng(lat,lon), // 지도의 중심좌표
+            center: new kakao.maps.LatLng(lat1,lon1), // 지도의 중심좌표
             level: 3 // 지도의 확대 레벨
         };
     
@@ -17,7 +26,7 @@ function findmap(){
     var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
     
     // 마커가 표시될 위치입니다 
-    var markerPosition  = new kakao.maps.LatLng(lat,lon); 
+    var markerPosition  = new kakao.maps.LatLng(lat1,lon1); 
     
     // 마커를 생성합니다
     var marker = new kakao.maps.Marker({

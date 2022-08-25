@@ -1,0 +1,403 @@
+@import './total.css';
+
+.medal{
+    position: absolute;
+    left: 290px;
+    top: 270px;
+    width: 50px;
+    height: 50px;
+}
+.rankName1{
+    font-family: 'IM FELL Double Pica';
+    width: fit-content;
+    font-weight: 400;
+    font-size: 48px;
+    margin:0 ;
+    padding-left: 25%;
+}
+
+.rankName{
+    font-family: 'IM FELL Double Pica';
+    width: fit-content;
+    font-weight: 400;
+    font-size: 48px;
+    margin:0 ;
+    padding-left: 30%;
+}
+
+
+@media screen and (max-width:1799px)  {
+    
+.rank-main{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.rank-title{
+
+    width: fit-content;
+    height: 22px;
+    margin: 0 auto;
+    margin-top: 65px;
+    font-family: 'IM FELL Double Pica';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 22px;
+    color: #000000;
+    background: url('/img/donut.jpg');
+
+}
+
+.rank-content{
+    background-color: #7CA9E3;
+    width: 100%;
+    height: 100%;
+    margin-top: 2vw;
+    padding-top: 2%;
+    padding-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left:7vw ;
+}
+.rank-content-1{
+    width: 70%;
+    background-color: #FDFDFD;
+    height: 90%;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.navbar{
+    display: none;
+}
+
+.f1st{
+
+    width: 169px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background: #DDEBFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    }
+
+.c-img{
+    width: 147px;
+    height: 88px;
+    display: block;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding-top: 6%;
+}
+
+.tag{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    padding-left: 9%;
+    color: #9B9EBC;
+
+}
+
+.c-name{
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 9%;
+    color: #000000;
+}
+
+.medal1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 657px;
+    top: 180px;
+
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.another{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 6%;
+}
+
+#box{
+    width: 169px;
+    height: 180px;
+    background: #DDEBFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.rank-content-2{
+    width: 70%;
+    background-color: #FDFDFD;
+    height: 90%;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.firstPlayer img{
+
+    width: 158px;
+    height: 158px;
+    display: block;
+    border-radius: 50%;
+    border: 5px solid #7CA9E3;
+    filter: drop-shadow(0px 4px 20px rgba(101, 101, 101, 0.15));
+    margin: 0 auto;
+}
+
+.fplayername{
+    
+    width: 111px;
+    height: 41px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 22px;
+    padding-top:20px;
+    color: #000000;
+    margin: 0 auto;
+
+}
+
+
+.score{
+    width: fit-content;
+    height: 20px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.other2 img{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.15);
+    border-radius: 50%;
+    margin-left:5% ;
+    margin-right:30% ;
+}
+
+.p-name{
+    padding-left: 40px;
+}
+.p-point{
+    padding-left: 100px;
+}
+
+.tt{
+    margin: 0 auto;
+    padding-top: 1%;
+}
+}
+@media screen and (max-width:899px) {
+    .rank-main{
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    
+    .rank-title{
+    
+        width: fit-content;
+        height: 22px;
+        margin: 0 auto;
+        margin-top: 65px;
+        font-family: 'IM FELL Double Pica';
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 22px;
+        color: #000000;
+        background: url('/img/donut.jpg');
+    
+    }
+    
+    .rank-content{
+        background-color: #7CA9E3;
+        width: 100%;
+        height: fit-content;
+        margin-top: 2vw;
+        padding-top: 2%;
+        padding-left: 3%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left:7vw ;
+        gap: 80px;
+    }
+    .rank-content-1{
+        width: 70%;
+        background-color: #FDFDFD;
+        height: 105%;
+        border-radius: 15px;
+        padding: 8%;
+    }
+    
+    .navbar{
+        display: none;
+    }
+    
+    .f1st{
+    
+        width: 169px;
+        height: 180px;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        background: #DDEBFF;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        }
+    
+    .c-img{
+        width: 147px;
+        height: 88px;
+        display: block;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin: 0 auto;
+        padding-top: 6%;
+    }
+    
+    .tag{
+        font-family: 'Noto Sans KR';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    
+        padding-left: 9%;
+        color: #9B9EBC;
+    
+    }
+    
+    .c-name{
+        font-family: 'Noto Sans KR';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+    
+        display: flex;
+        align-items: center;
+        padding-left: 9%;
+        color: #000000;
+    }
+    
+    .medal1{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 657px;
+        top: 180px;
+    
+        filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .another{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 6%;
+    }
+    
+    #box{
+        width: 169px;
+        height: 180px;
+        background: #DDEBFF;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+    
+    .rank-content-2{
+        width: 70%;
+        background-color: #FDFDFD;
+        height: 105%;
+        border-radius: 15px;
+        padding: 8%;
+    }
+    
+    .firstPlayer img{
+    
+        width: 158px;
+        height: 158px;
+        display: block;
+        border-radius: 50%;
+        border: 5px solid #7CA9E3;
+        filter: drop-shadow(0px 4px 20px rgba(101, 101, 101, 0.15));
+        margin: 0 auto;
+    }
+    
+    .fplayername{
+        
+        width: 111px;
+        height: 41px;
+    
+        font-family: 'Noto Sans KR';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 22px;
+        padding-top:20px;
+        color: #000000;
+        margin: 0 auto;
+    
+    }
+    
+    
+    .score{
+        width: fit-content;
+        height: 24px;
+    
+        font-family: 'Noto Sans KR';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+        margin: 0 auto;
+    }
+    
+    .other2 img{
+        margin-top: 10px;
+        width: 60px;
+        height: 60px;
+        border: 4px solid #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.15);
+        border-radius: 50%;
+        margin-left:5% ;
+        margin-right:30% ;
+    }
+    
+    .p-name{
+        padding-left: 40px;
+    }
+    .p-point{
+        padding-left: 100px;
+    }
+    
+    .tt{
+        margin: 0 auto;
+        padding-top: 1%;
+    }
+    
+    }
